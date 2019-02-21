@@ -1,0 +1,16 @@
+name: config_set_O365_Uber_lockdown
+description: O365 Uber Lockdown
+extends: gsb_baseline
+label: O365 Lockdown Config
+type: panos
+extends:
+target_version: 8.1+
+variables:
+  - name: EDL_NAME
+    description: EDL Name as destination IP
+    default: https://XXXXX.paloaltonetworks-app.com/feeds/O365feed
+    type_hint: replace this with your MineMeld feeds
+snippets:
+  - xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/rulebase/security
+    name: config_set_O365_uber-rules
+    file: O365-Uber-Rules.xml
