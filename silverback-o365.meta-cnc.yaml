@@ -1,6 +1,9 @@
-name: config_set_name
-description: O365 Uber lockdown
+name: config_set_O365_Uber_lockdown
+description: O365 Uber Lockdown
 extends: gsb_baseline
+label: O365 Lockdown Config
+type: panos
+extends:
 target_version: 8.1+
 variables:
   - name: EDL_NAME
