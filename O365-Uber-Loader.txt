@@ -1,0 +1,2 @@
+ 
+load config partial from O365-Uber-Rules.xml from-xpath /config/devices/entry[@name='localhost.localdomain']/rulebase/security to-xpath /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/rulebase/security mode merge
