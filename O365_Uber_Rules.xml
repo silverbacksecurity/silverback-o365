@@ -1,6 +1,5 @@
           <rules>
             <entry name="O365-Activation">
-              <description>Outbound block rule based on EDL {{ edl_name }}</description>
               <rule-type>interzone</rule-type>
               <profile-setting>
                 <profiles>
