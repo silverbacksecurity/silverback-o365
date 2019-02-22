@@ -46,4 +46,4 @@ snippets:
     file: O365_external_list.xml
   - name: security_rules
     xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/rulebase/security
-    file: O365_rulebase_security.xml
+    file: O365_Uber_Rules.xml
