@@ -23,7 +23,7 @@
                         <member>default</member>
                     </wildfire-analysis>
                     <data-filtering>
-                        <member>Tagged Confidential</member>
+                        <member>basic file blocking</member>
                     </data-filtering>
                 </profiles>
             </profile-setting>
@@ -84,7 +84,7 @@
                         <member>default</member>
                     </wildfire-analysis>
                     <data-filtering>
-                        <member>Tagged Confidential</member>
+                        <member>basic file blocking</member>
                     </data-filtering>
                 </profiles>
             </profile-setting>
@@ -145,7 +145,7 @@
                         <member>default</member>
                     </wildfire-analysis>
                     <data-filtering>
-                        <member>Tagged Confidential</member>
+                        <member>basic file blocking</member>
                     </data-filtering>
                 </profiles>
             </profile-setting>
@@ -206,7 +206,7 @@
                         <member>default</member>
                     </wildfire-analysis>
                     <data-filtering>
-                        <member>Tagged Confidential</member>
+                        <member>basic file blocking</member>
                     </data-filtering>
                 </profiles>
             </profile-setting>
@@ -268,7 +268,7 @@
                         <member>default</member>
                     </wildfire-analysis>
                     <data-filtering>
-                        <member>Tagged Confidential</member>
+                        <member>basic file blocking</member>
                     </data-filtering>
                 </profiles>
             </profile-setting>
@@ -333,7 +333,7 @@
                         <member>default</member>
                     </wildfire-analysis>
                     <data-filtering>
-                        <member>Tagged Confidential</member>
+                        <member>basic file blocking</member>
                     </data-filtering>
                 </profiles>
             </profile-setting>
@@ -397,7 +397,7 @@
                         <member>default</member>
                     </wildfire-analysis>
                     <data-filtering>
-                        <member>Tagged Confidential</member>
+                        <member>basic file blocking</member>
                     </data-filtering>
                 </profiles>
             </profile-setting>
@@ -464,7 +464,7 @@
                         <member>default</member>
                     </wildfire-analysis>
                     <data-filtering>
-                        <member>Tagged Confidential</member>
+                        <member>basic file blocking</member>
                     </data-filtering>
                 </profiles>
             </profile-setting>
@@ -521,7 +521,7 @@
                         <member>default</member>
                     </wildfire-analysis>
                     <data-filtering>
-                        <member>Tagged Confidential</member>
+                        <member>basic file blocking</member>
                     </data-filtering>
                 </profiles>
             </profile-setting>
