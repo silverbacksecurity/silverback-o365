@@ -1,10 +1,6 @@
-<config version="8.1.0" urldb="paloaltonetworks">
-  <devices>
-    <entry name="localhost.localdomain">
-      <rulebase>
-        <security>
           <rules>
             <entry name="O365-Activation">
+              <description>Outbound block rule based on EDL {{ edl_name }}</description>
               <rule-type>interzone</rule-type>
               <profile-setting>
                 <profiles>
@@ -692,8 +688,3 @@
               <log-setting>Default-Logging-Profile</log-setting>
             </entry>
           </rules>
-        </security>
-      </rulebase>
-    </entry>
-  </devices>
-</config>
