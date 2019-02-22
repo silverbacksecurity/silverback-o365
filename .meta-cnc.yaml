@@ -1,4 +1,4 @@
-name: config_set_O365_Uber_lockdown
+name: silverback-o365
 description: O365 Uber Lockdown
 extends: gsb_baseline
 label: O365 Lockdown Config
