@@ -10,7 +10,23 @@ variables:
     description: EDL Name as destination IP
     default: https://XXXXX.paloaltonetworks-app.com/feeds/O365feed
     type_hint: replace this with your MineMeld feeds
+    variables:
+  - name: edl_url
+    description: url that the EDL pulls its list from
+    default: http://my.edl.url.com/filename.txt
+    type_hint: text
+  - name: edl_description
+    description: brief description for the EDL list context
+    default: add the edl description here
+    type_hint: text
+  - name: logging_profile
+    description: Log forwarding profile used in the security rule
+    default: default
+    type_hint: text
 snippets:
+  - name: external_list
+    xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/external-list
+    file: O365_external_list.xml
   - xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/rulebase/security
-    name: config_set_O365_uber-rules
-    file: O365-Uber-Rules.xml
+    name: config_set_O365_uber_rules
+    file: O365_Uber_Rules.xml
